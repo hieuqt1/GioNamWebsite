@@ -1,7 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
+
 .header {
     display: flex;
     position: fixed;
     z-index: 100000;
     width: 100%;
     height: 65px;
+    background-color: black;
+}
+
+.identity-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.image-item {
+    margin-left: 100px;
+    width: 55px;
+    height: 55px;
+}
+
+.name-button {
+    margin-left: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: wheat;
+    white-space: nowrap;
+}
+
+.navigation-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.navigation-item {
+    color: wheat;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
 }
