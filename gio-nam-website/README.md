@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### GET STARTED ##
+You will need to install the following dependencies:
+
+NODEJS:
+https://nodejs.org/en/download/
+npm install
+
+REACT-ROUTER-DOM:
+npm i react-router-dom
+
+MATERIAL UI AND MATERIAL UI ICONS:
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
 ## Available Scripts
 
 In the project directory, you can run:
