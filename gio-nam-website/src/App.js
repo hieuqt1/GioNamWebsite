@@ -1,5 +1,9 @@
 import HomePage from './components/Pages/HomePage/HomePage';
 import AboutPage from './components/Pages/AboutPage/AboutPage';
+import HistoryPage from './components/Pages/HistoryPage/HistoryPage';
+import MediaPage from './components/Pages/MediaPage/MediaPage';
+import JoinPage from './components/Pages/JoinPage/JoinPage';
+import ContactPage from './components/Pages/ContactPage/ContactPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -8,6 +12,10 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/history" element={<HistoryPage />} />
+        <Route path="/media" element={<MediaPage />} />
+        <Route path="/join-us" element={<JoinPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </BrowserRouter>
   );

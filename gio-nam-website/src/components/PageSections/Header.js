@@ -26,30 +26,28 @@ export default function Header ()
                         </Link> 
                     </div>
                     <div className="page-button navigation-item">
-                        <Link to="/about">
+                        <Link to="/history">
                             History
                         </Link> 
                     </div>
                     <div className="page-button navigation-item">
-                        <Link to="/about">
+                        <Link to="/media">
                             Media
                         </Link> 
                     </div>
                     <div className="page-button navigation-item">
-                        <Link to="/about">
+                        <Link to="/join-us">
                             Join Us
                         </Link> 
                     </div>
                     <div className="page-button navigation-item">
-                        <Link to="/about">
+                        <Link to="/contact">
                             Contact
                         </Link> 
                     </div>
                     {/* replace Search with magnifying glass and capability */}
                     <div className="page-button navigation-item">
-                        <Link to="/about">
-                            Search
-                        </Link> 
+                        <p>Search</p>
                     </div>
                 </div>
             </div>
