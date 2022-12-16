@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../assets/gio-nam-hero-banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../assets/gio-nam-team-hero-banner.jpg");
     background-attachment: fixed;
     background-color: black;
 }
