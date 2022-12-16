@@ -49,4 +49,5 @@
 .page-button {
     font-size: 18px;
     margin-right: 20px;
+    white-space: nowrap;
 }
