@@ -13,31 +13,43 @@ export default function Header ()
                             <img className="image-item" src = {transparent_logo} />
                         </Link> 
                     </div>
-                    <div className="name-button">
-                        <p>Gió Nam Múa Lân</p>                        
+                    <div className="name-button navigation-item">
+                        <Link to="/">
+                            Gió Nam Múa Lân
+                        </Link>                     
                     </div>
                 </div>
                 <div className="navigation-container">
-                    <div className="navigation-item">
-                        <p>Home</p>
+                    <div className="page-button navigation-item">
+                        <Link to="/about">
+                            About Us
+                        </Link> 
                     </div>
-                    <div className="navigation-item">
-                        <p>About</p>
+                    <div className="page-button navigation-item">
+                        <Link to="/about">
+                            History
+                        </Link> 
                     </div>
-                    <div className="navigation-item">
-                        <p>Home</p>
+                    <div className="page-button navigation-item">
+                        <Link to="/about">
+                            Media
+                        </Link> 
                     </div>
-                    <div className="navigation-item">
-                        <p>Home</p>
+                    <div className="page-button navigation-item">
+                        <Link to="/about">
+                            Join Us
+                        </Link> 
                     </div>
-                    <div className="navigation-item">
-                        <p>Home</p>
+                    <div className="page-button navigation-item">
+                        <Link to="/about">
+                            Contact
+                        </Link> 
                     </div>
-                    <div className="navigation-item">
-                        <p>Home</p>
-                    </div>
-                    <div className="navigation-item">
-                        <p>Home</p>
+                    {/* replace Search with magnifying glass and capability */}
+                    <div className="page-button navigation-item">
+                        <Link to="/about">
+                            Search
+                        </Link> 
                     </div>
                 </div>
             </div>

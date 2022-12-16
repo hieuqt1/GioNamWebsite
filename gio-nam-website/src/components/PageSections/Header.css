@@ -23,9 +23,7 @@
 
 .name-button {
     margin-left: 25px;
-    font-family: 'Quicksand', sans-serif;
     font-size: 24px;
-    color: white;
     white-space: nowrap;
 }
 
@@ -38,13 +36,17 @@
     
 }
 
-.navigation-item {
+.navigation-item, .navigation-item a {
     color: white;
     font-family: 'Quicksand', sans-serif;
-    font-size: 18px;
-    margin-right: 10px;
+    text-decoration: none;
 }
 
-.name-button:hover, .navigation-item:hover {
+.name-button:hover, .navigation-item a:hover {
     color: wheat;
+}
+
+.page-button {
+    font-size: 18px;
+    margin-right: 20px;
 }
