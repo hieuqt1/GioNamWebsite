@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from './components/Pages/HomePage/HomePage';
+import AboutPage from './components/Pages/AboutPage/AboutPage';
+import HistoryPage from './components/Pages/HistoryPage/HistoryPage';
+import MediaPage from './components/Pages/MediaPage/MediaPage';
+import JoinPage from './components/Pages/JoinPage/JoinPage';
+import ContactPage from './components/Pages/ContactPage/ContactPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/history" element={<HistoryPage />} />
+        <Route path="/media" element={<MediaPage />} />
+        <Route path="/join-us" element={<JoinPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
