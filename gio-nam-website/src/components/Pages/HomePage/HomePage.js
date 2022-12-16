@@ -17,18 +17,20 @@ export default function HomePage()
 
     return (
         <ThemeProvider theme={theme}>
-            <div>
             <div className="homepage-container">
-                <Header />
-            </div>
-            <div className="homepage-hero-banner">
-                <div className="homepage-hero-text">
-                    <h2>Let the South Wind guide you</h2>
-                    {/* button defaults to "primary" theme color */}
-                    <Button className="welcomeButton" variant="outlined" style={{ border: '2px solid' }} onClick={welcomeButton}>Welcome</Button>
+                <div>
+                    <Header />
                 </div>
-            </div>
-            
+                <div className="homepage-hero-banner">
+                    <div className="homepage-hero-text">
+                        <h2>Let the South Wind guide you</h2>
+                        {/* button defaults to "primary" theme color */}
+                        <Button className="welcomeButton" variant="outlined" style={{ border: '2px solid' }} onClick={welcomeButton}>Welcome</Button>
+                    </div>
+                </div>
+                <div className="welcome-container">
+                    Do we want extra stuff here
+                </div>
             </div>
         </ThemeProvider>
 
