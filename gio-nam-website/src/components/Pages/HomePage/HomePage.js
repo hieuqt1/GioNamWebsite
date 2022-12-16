@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomePage.css"
-import Header from "../PageSections/Header";
-import hero_banner from "../../assets/gio-nam-hero-banner.png"
+import Header from "../../PageSections/Header";
 
 export default function HomePage()
 {
@@ -11,7 +10,7 @@ export default function HomePage()
                 <Header />
             </div>
             <div className="homepage-hero-banner">
-                <div class="homepage-hero-text">
+                <div className="homepage-hero-text">
                     
                 </div>
             </div>
