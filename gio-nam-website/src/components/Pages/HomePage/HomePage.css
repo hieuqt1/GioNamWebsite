@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 .homepage-container {
     display: flex;
     flex-direction: column;
@@ -6,12 +8,49 @@
 }
 
 .homepage-hero-banner {
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
-    background-image: url("../../../assets/gio-nam-hero-banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../assets/gio-nam-hero-banner.png");
+    background-attachment: fixed;
     background-color: black;
+}
+
+.homepage-hero-banner h1 {
+    /* Text styles */
+    font-size: 5em;
+}
+
+.homepage-hero-banner h2 {
+    /* Text styles */
+    font-size: 2.5em;
+    margin-top: -25px;
+}
+
+.homepage-hero-banner h3 {
+    /* Text styles */
+    font-size: 1.5em;
+}
+
+.homepage-hero-text {
+    color: white;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+.welcomeButton:hover {
+    color: wheat;
 }
