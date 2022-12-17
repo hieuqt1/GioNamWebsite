@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import './Header.css'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import transparent_logo from "../../../assets/gio-nam-transparent-logo.png"
+
+//todo: break navigation items into smaller components
 
 export default function Header ()
 {
@@ -20,20 +23,43 @@ export default function Header ()
                     </div>
                 </div>
                 <div className="navigation-container">
-                    <div className="page-button navigation-item">
-                        <Link to="/about">
-                            About Us
-                        </Link> 
+                    <div className="dropdown">
+                        <div className="dropdown-header page-button navigation-item">
+                            <Link to="/about" className="link-size">About Us
+                                <ExpandMoreIcon fontSize="small" className="icon-style"/>
+                            </Link>
+                        </div>
+                        <div className="dropdown-content">
+                            <Link to="/about">
+                                About Us
+                            </Link> 
+                            <Link to="/about">
+                                Our Philosophy
+                            </Link> 
+                            <Link to="/about">
+                                Meet the Instructors
+                            </Link> 
+                        </div>
                     </div>
                     <div className="page-button navigation-item">
                         <Link to="/history">
                             History
                         </Link> 
                     </div>
-                    <div className="page-button navigation-item">
-                        <Link to="/media">
-                            Media
-                        </Link> 
+                    <div className="dropdown">
+                        <div className="dropdown-header page-button navigation-item">
+                            <Link to="/media" className="link-size">Media
+                                <ExpandMoreIcon fontSize="small" className="icon-style"/>
+                            </Link>
+                        </div>
+                        <div className="dropdown-content">
+                            <Link to="/media">
+                                Gallery
+                            </Link> 
+                            <Link to="/media">
+                                Our Pride
+                            </Link> 
+                        </div>
                     </div>
                     <div className="page-button navigation-item">
                         <Link to="/join-us">
