@@ -16,7 +16,7 @@
 }
 
 .image-item {
-    margin-left: 100px;
+    margin-left: 5.208vw;
     width: 55px;
     height: 55px;
 }
@@ -33,7 +33,7 @@
     width: 100%;
     align-items: center;
     justify-content: end;
-    margin-right: 100px;
+    margin-right: 5.208vw;
     
 }
 
