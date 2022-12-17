@@ -8,7 +8,6 @@
 }
 
 .homepage-hero-banner {
-    width: 100vw;
     height: 100vh;
     
     /* Flexbox stuff */
@@ -31,18 +30,18 @@
 
 .homepage-hero-banner h1 {
     /* Text styles */
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 .homepage-hero-banner h2 {
     /* Text styles */
-    font-size: 2.5em;
+    font-size: 2.5vw;
     margin-top: -25px;
 }
 
 .homepage-hero-banner h3 {
     /* Text styles */
-    font-size: 1.5em;
+    font-size: 1.5vw;
 }
 
 .homepage-hero-text {

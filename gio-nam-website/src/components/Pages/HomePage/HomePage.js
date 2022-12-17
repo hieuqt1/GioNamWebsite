@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage.css"
-import Header from "../../PageSections/Header";
+import Header from "../../PageSections/Header/Header";
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom";
 import { ThemeProvider } from "@mui/material";
@@ -34,10 +34,5 @@ export default function HomePage()
             
             </div>
         </ThemeProvider>
-
-        
-            
-        
-        
     )
 }
