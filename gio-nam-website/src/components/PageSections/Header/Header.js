@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import './Header.css'
-import transparent_logo from "../../assets/gio-nam-transparent-logo.png"
+import transparent_logo from "../../../assets/gio-nam-transparent-logo.png"
 
 export default function Header ()
 {
