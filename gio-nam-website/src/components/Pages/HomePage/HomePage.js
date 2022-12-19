@@ -16,7 +16,7 @@ export default function HomePage()
 {
     let navigate = useNavigate();
     function welcomeButton() {
-        let path = '/welcome';
+        let path = '/about';
         navigate(path)
     }
 
