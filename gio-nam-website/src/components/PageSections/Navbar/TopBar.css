@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap);
+
+.gio-nam-topbar-font {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+}
+
+.topbar-left {
+    margin-left: 5.208px;
+}
+
+.topbar-right {
+    margin-right: 5.208px;
+}
+
+.image-brand {
+    width: 55px;
+    height: 55px;
+}
+
+.name-brand {
+    margin-left: 25px;
+    font-size: 24px;
+    white-space: nowrap;
+    font-weight: 300;
+}

@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { ThemeProvider } from "@mui/material";
 import theme from '../../../theme'
 import Carousel from "../../CustomComponents/Carousel";
-
+import TopBar from "../../PageSections/Navbar/TopBar";
 import welcome_image_1 from "../../../assets/team.JPG"
 import welcome_image_2 from "../../../assets/wedding-1.JPG"
 import welcome_image_3 from "../../../assets/wedding-2.JPG"
