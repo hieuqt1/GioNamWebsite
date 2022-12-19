@@ -15,6 +15,8 @@ npm i react-router-dom
 MATERIAL UI AND MATERIAL UI ICONS:
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+npm install primereact primeicons
+npm install react-carousel-minimal
 
 ## Available Scripts
 

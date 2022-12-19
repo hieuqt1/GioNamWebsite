@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
+.gio-nam-font {
+    font-family: 'Noto Serif', serif;
+}
+
 .homepage-container {
     display: flex;
     flex-direction: column;
@@ -18,7 +22,6 @@
     /* Text styles */
     text-align: center;
     
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -45,11 +48,47 @@
 }
 
 .homepage-hero-text {
-    color: white;
-    font-family: 'Noto Serif', serif;
-    
+    color: white;    
 }
 
 .welcomeButton:hover {
-    color: wheat;
+    color: #f5deb3;
+}
+
+.welcome-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(238, 238, 238);
+}
+
+.left-column {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+ .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 90%;
+    width: 50%;
+    margin-right: 5.208vw;
+ }
+
+.welcome-header {
+    font-size: 2.1vw;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.85vw;
+}
+.welcome-button {
+    width: 50%;
 }
