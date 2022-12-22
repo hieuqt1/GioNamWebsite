@@ -18,7 +18,10 @@
     align-items: center;
     justify-content: center;
     background-color: #303033;
+    color: white;
 }
+
+
 
 .aboutus-lion-line-up {
     height: 100vh;
@@ -35,12 +38,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../assets/lion-line-up.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../../assets/lion-line-up.jpg");
     /*background-attachment: fixed;*/
     background-color: black;
     width: 100%;
     margin-top: 7vh;
     height: 60%;
+    color: #303033;
+    opacity: .8;
 }
 
 .aboutus-lion-line-up h1 {
