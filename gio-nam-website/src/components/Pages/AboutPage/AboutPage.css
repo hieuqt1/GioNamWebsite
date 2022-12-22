@@ -50,7 +50,13 @@
 
 .aboutus-lion-line-up h1 {
     /* Text styles */
-    font-size: 3vw;
+    font-size: 3.5vw;
+    border-style: solid;
+    border-width: .3vh;
+    padding: 1vh;
+    padding-right: 9vh;
+    padding-left: 9vh;
+
 }
 
 .aboutus-lion-line-up h2 {
