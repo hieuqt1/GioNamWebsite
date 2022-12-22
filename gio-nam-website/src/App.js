@@ -8,6 +8,12 @@ import WelcomePage from './components/Pages/WelcomePage/WelcomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
+import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
+import "primereact/resources/primereact.min.css";                  //core css
+import "primeicons/primeicons.css";                                //icons
+ 
+
+
 function App() {
   return (
       <BrowserRouter>
