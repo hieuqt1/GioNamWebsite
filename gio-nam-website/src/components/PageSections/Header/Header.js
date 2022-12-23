@@ -36,7 +36,7 @@ export default function Header ()
                             <Link to="/about">
                                 Our Philosophy
                             </Link> 
-                            <Link to="/about">
+                            <Link to="/about/meet-the-instructors">
                                 Meet the Instructors
                             </Link> 
                         </div>

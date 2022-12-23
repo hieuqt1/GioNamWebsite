@@ -1,5 +1,6 @@
 import HomePage from './components/Pages/HomePage/HomePage';
 import AboutPage from './components/Pages/AboutPage/AboutPage';
+import MeetTheInstructorsPage from './components/Pages/AboutPage/MeetTheInstructors/MeetTheInstructorsPage';
 import HistoryPage from './components/Pages/HistoryPage/HistoryPage';
 import MediaPage from './components/Pages/MediaPage/MediaPage';
 import JoinPage from './components/Pages/JoinPage/JoinPage';
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/about/meet-the-instructors" element={<MeetTheInstructorsPage />} />
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/media" element={<MediaPage />} />
           <Route path="/join-us" element={<JoinPage />} />
