@@ -57,7 +57,8 @@
 
 .welcome-container {
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,13 +82,13 @@
  }
 
 .welcome-header {
-    font-size: 2.1vw;
+    font-size: 40px;
 }
 
 .welcome-text {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 0.85vw;
+    font-size: 17px;
 }
 .welcome-button {
     width: 50%;

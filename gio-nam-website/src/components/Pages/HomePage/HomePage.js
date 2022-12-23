@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomePage.css"
 import Header from "../../PageSections/Header/Header";
+import Footer from "../../PageSections/Footer/Footer";
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom";
 import { ThemeProvider } from "@mui/material";
@@ -49,17 +50,17 @@ export default function HomePage()
                             <div className="welcome-text">
                                 <p>
                                 We are a nonprofit organization located in Orange County, CA, specializing in the traditional art of lion dance.  
-                                Founded in 2004, we have proudly continued to spread awareness of lion dance traditions ever since.<br></br>
-                                <br></br>
+                                Founded in 2004, we have proudly continued to spread awareness of lion dance traditions ever since.</p>
+                                <p>
                                 We are inaugural members of the USA Dragon and Lion Dance Sports Association.
                                 </p>
                             </div>
-                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "50px"}} variant="contained" color="secondary" disableElevation>Learn More</Button>
-                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}}} variant="contained" color="secondary" disableElevation>Contact Us</Button>
+                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="secondary" disableElevation>Learn More</Button>
+                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="secondary" disableElevation>Contact Us</Button>
 
-                    </div>
-                    
-                </div>          
+                    </div>  
+                </div> 
+                <Footer />        
             </div>
         </ThemeProvider>
     )
