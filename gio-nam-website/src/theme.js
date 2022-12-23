@@ -14,6 +14,13 @@ const theme = createTheme({
       dark: '#b80000',
       contrastText: '#000'
     },
+    //our fearless leader wants black and white sigh
+    button: {
+      light: '#ff7961',
+      main: '#000000',
+      dark: '#b80000',
+      contrastText: '#fff'
+    }
   },
 });
 

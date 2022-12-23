@@ -6,13 +6,16 @@
     width: 100%;
     max-height: 200px;
     height: fit-content;
-    background-color: wheat;
+    background-color: #084B99;
     align-items: center;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
 }
 
+.topText, .middleText, .bottomText {
+    color: white;
+}
 
 .topText {
     margin-top: 1em;
@@ -20,7 +23,6 @@
 }
 
 .middleText {
-    color: black !important;
     margin-bottom: 0px;
 }
 

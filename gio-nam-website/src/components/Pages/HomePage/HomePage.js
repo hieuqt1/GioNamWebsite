@@ -55,8 +55,8 @@ export default function HomePage()
                                 We are inaugural members of the USA Dragon and Lion Dance Sports Association.
                                 </p>
                             </div>
-                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="secondary" disableElevation>Learn More</Button>
-                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="secondary" disableElevation>Contact Us</Button>
+                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="button" disableElevation>Learn More</Button>
+                            <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="button" disableElevation>Contact Us</Button>
 
                     </div>  
                 </div> 
