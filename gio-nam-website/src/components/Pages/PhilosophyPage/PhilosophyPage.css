@@ -12,18 +12,8 @@
     height: 100%;
 }
 
-.temp {
-    background-size: cover; 
-    background-position: center center; 
-    background-image: "";
-    transform: translate3d(0px, 0px, 0px);
 
-}
-
-
-
-
-.aboutus-lion-line-up {
+.philo-hero {
     
     /* Flexbox stuff */
     display: flex;
@@ -37,17 +27,19 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../../assets/PhiloPic.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../assets/PhiloPic.jpeg");
+    
+    /* transform: translate3d(0px, 0px, 0px); */
     /*background-attachment: fixed;*/
     background-color: black;
     width: 100%;
     margin-top: 7vh;
     height: 60%;
-    color: #303033;
+    color: #ffffff;
     opacity: .8;
 }
 
-.aboutus-button-container {
+.philo-button-container {
     display: flex;
     justify-content: center;
     align-items: center center;
@@ -59,7 +51,7 @@
     color: white;
 }
 
-.aboutus-text-container {
+.philo-text-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -73,7 +65,7 @@
     padding-top: 4vh;
 }
 
-.aboutus-text-container p {
+.philo-text-container p {
     text-align: center;
     font-size: 17px;
 
@@ -81,7 +73,7 @@
     /* align-items: center center; */
 }
 
-.aboutus-lion-line-up h1 {
+.philo-hero h1 {
     /* Text styles */
     font-size: 3.5vw;
     border-style: solid;
@@ -92,7 +84,7 @@
 
 }
 
-.aboutus-lion-line-up h2 {
+.philo-hero h2 {
     /* Text styles */
     font-size: 3vw;
 }
@@ -106,8 +98,3 @@
     width: 100%;
 }
 
-
-* footer {
-    height: 5vh;
-    background-color: #303033;
-}
