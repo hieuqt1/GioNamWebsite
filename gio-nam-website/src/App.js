@@ -5,6 +5,8 @@ import MediaPage from './components/Pages/MediaPage/MediaPage';
 import JoinPage from './components/Pages/JoinPage/JoinPage';
 import ContactPage from './components/Pages/ContactPage/ContactPage';
 import WelcomePage from './components/Pages/WelcomePage/WelcomePage';
+import PhilosophyPage from './components/Pages/PhilosophyPage/PhilosophyPage';
+// components\Pages\PhilosophyPage\Philosophy.css
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
@@ -20,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/philosophy" element={<PhilosophyPage />} />
           <Route path="/history" element={<HistoryPage />} />
           <Route path="/media" element={<MediaPage />} />
           <Route path="/join-us" element={<JoinPage />} />

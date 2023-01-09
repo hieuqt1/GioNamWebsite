@@ -33,7 +33,7 @@ export default function Header ()
                             <Link to="/about">
                                 About Us
                             </Link> 
-                            <Link to="/about">
+                            <Link to="/philosophy">
                                 Our Philosophy
                             </Link> 
                             <Link to="/about">
