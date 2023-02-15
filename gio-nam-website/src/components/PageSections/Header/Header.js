@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './Header.css'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import transparent_logo from "../../../assets/gio-nam-transparent-logo.png"
+import transparent_logo from "../../../assets/icons/gio-nam-transparent-logo.png"
 
 //todo: break navigation items into smaller components
 
@@ -11,9 +11,9 @@ export default function Header ()
     return (
             <div className="header">
                 <div className="identity-container">
-                    <div className="logo-button">
+                    <div>
                         <Link to="/">
-                            <img className="image-item" src = {transparent_logo} />
+                            <img className="header-image-item" src = {transparent_logo} />
                         </Link> 
                     </div>
                     <div className="name-button navigation-item">
