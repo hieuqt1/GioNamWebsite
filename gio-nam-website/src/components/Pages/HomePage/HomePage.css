@@ -33,7 +33,14 @@
 
 .homepage-hero-banner h1 {
     /* Text styles */
-    font-size: 5vw;
+    font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .homepage-hero-banner h1 {
+        /* Text styles */
+        font-size: 80px;
+    }
 }
 
 .homepage-hero-banner h2 {

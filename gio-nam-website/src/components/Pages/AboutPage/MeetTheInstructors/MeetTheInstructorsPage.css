@@ -79,5 +79,9 @@
 .instructor-card {
     width: 15vw;
     white-space: nowrap;
+    transition: .2s;
+}
 
+.instructor-card:hover {
+    transform: scale(1.05);
 }
