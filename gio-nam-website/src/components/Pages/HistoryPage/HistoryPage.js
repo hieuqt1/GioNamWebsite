@@ -45,7 +45,8 @@ function FlagStripe(props) {
   return (
     <div
       style={{ backgroundColor: color }}
-      tabIndex="0"
+      tabIndex="0
+      "
       onClick={handleColorChange}
     ></div>
   );
