@@ -3,9 +3,8 @@ import "./MeetTheInstructorsPage.css"
 import Header from "../../../PageSections/Header/Header";
 import Footer from "../../../PageSections/Footer/Footer";
 import { Card } from 'primereact/card';
-import hieu_card from "../../../../assets/hieu-card.jpg"
-import brian_card from "../../../../assets/brian-card.jpg"
-import brian_card_2 from "../../../../assets/brian-card-2.JPG"
+import hieu_card from "../../../../assets/hieu-card.JPG"
+import brian_card from "../../../../assets/brian-card.JPG"
 import william_card from "../../../../assets/william-card.JPG"
 import braden_card from "../../../../assets/braden-card.JPG"
 import jimmy_card from "../../../../assets/jimmy-card.JPG"
@@ -29,7 +28,7 @@ export default function MeetTheInstructorsPage()
                     <p>Click on each instructor's image to go to their profile and learn more about their experiences. We hope to see you soon!</p>
                 </div>
                 <div className="mtipage-card-grid">
-                    <Card title="Brian Le" header={header(brian_card_2)} subTitle="Coordinator" className="instructor-card">
+                    <Card title="Brian Le" header={header(brian_card)} subTitle="Coordinator" className="instructor-card">
                     </Card>
                     <Card title="Hieu Tran" header={header(hieu_card)} subTitle="Coordinator" className="instructor-card">
                     </Card>

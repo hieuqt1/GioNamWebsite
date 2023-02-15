@@ -14,16 +14,11 @@ const headerItems = [
     contents: [
       {
         id: 0,
-        title: "About Us",
-        href: "/about",
+        title: "Our Philosophy",
+        href: "/about/our-philosophy",
       },
       {
         id: 1,
-        title: "Our Philosophy",
-        href: "/about",
-      },
-      {
-        id: 2,
         title: "Meet the Instructors",
         href: "/about/meet-the-instructors",
       },
@@ -36,8 +31,30 @@ const headerItems = [
   },
   {
     id: 2,
+    title: "Media",
+    href: "/media",
+    contents: [
+      {
+        id: 0,
+        title: "Gallery",
+        href: "/media/gallery",
+      },
+      {
+        id: 1,
+        title: "Our Pride",
+        href: "/media/our-pride",
+      },
+    ],
+  },
+  {
+    id: 3,
     title: "Join Us",
     href: "/join-us",
+  },
+  {
+    id: 4,
+    title: "Contact",
+    href: "/contact",
   },
 ];
 
@@ -59,40 +76,6 @@ export default function Header() {
         {headerItems.map((item) => (
           <HeaderItem key={item.id} item={item} />
         ))}
-        {/* <div className="dropdown">
-          <div className="dropdown-header page-button navigation-item">
-            <Link to="/about" className="link-size">
-              About Us
-              <ExpandMoreIcon fontSize="small" className="icon-style" />
-            </Link>
-          </div>
-          <div className="dropdown-content">
-            <Link to="/about">About Us</Link>
-            <Link to="/about">Our Philosophy</Link>
-            <Link to="/about/meet-the-instructors">Meet the Instructors</Link>
-          </div>
-        </div>
-        <div className="page-button navigation-item">
-          <Link to="/history">History</Link>
-        </div>
-        <div className="dropdown">
-          <div className="dropdown-header page-button navigation-item">
-            <Link to="/media" className="link-size">
-              Media
-              <ExpandMoreIcon fontSize="small" className="icon-style" />
-            </Link>
-          </div>
-          <div className="dropdown-content">
-            <Link to="/media">Gallery</Link>
-            <Link to="/media">Our Pride</Link>
-          </div>
-        </div>
-        <div className="page-button navigation-item">
-          <Link to="/join-us">Join Us</Link>
-        </div>
-        <div className="page-button navigation-item">
-          <Link to="/contact">Contact</Link>
-        </div> */}
         {/* replace Search with magnifying glass and capability */}
         {/* <div className="page-button navigation-item">
           <p>Search</p>
