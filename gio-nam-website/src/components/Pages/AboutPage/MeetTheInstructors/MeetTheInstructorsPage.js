@@ -4,7 +4,7 @@ import Header from "../../../PageSections/Header/Header";
 import Footer from "../../../PageSections/Footer/Footer";
 import { Card } from 'primereact/card';
 import hieu_card from "../../../../assets/hieu-card.JPG"
-import brian_card from "../../../../assets/brian-card.JPG"
+import brian_card from "../../../../assets/brian-card.jpg"
 import william_card from "../../../../assets/william-card.JPG"
 import braden_card from "../../../../assets/braden-card.JPG"
 import jimmy_card from "../../../../assets/jimmy-card.JPG"
