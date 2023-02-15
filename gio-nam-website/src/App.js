@@ -12,22 +12,26 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
 import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
+import ScrollToTop from './ScrollToTop';
  
 
 
 function App() {
   return (
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/about/meet-the-instructors" element={<MeetTheInstructorsPage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route path="/media" element={<MediaPage />} />
-          <Route path="/join-us" element={<JoinPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/welcome" element={<WelcomePage />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/about/meet-the-instructors" element={<MeetTheInstructorsPage />} />
+              <Route path="/history" element={<HistoryPage />} />
+              <Route path="/media" element={<MediaPage />} />
+              <Route path="/join-us" element={<JoinPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/welcome" element={<WelcomePage />} />
+            </Routes>
+      </ScrollToTop>
+        
       </BrowserRouter>
   )
 }

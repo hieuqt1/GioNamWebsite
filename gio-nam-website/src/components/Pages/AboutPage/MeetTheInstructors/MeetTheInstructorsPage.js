@@ -8,6 +8,12 @@ import brian_card from "../../../../assets/brian-card.JPG"
 import william_card from "../../../../assets/william-card.JPG"
 import braden_card from "../../../../assets/braden-card.JPG"
 import jimmy_card from "../../../../assets/jimmy-card.JPG"
+import hai_card from "../../../../assets/hai-card.jpg"
+import dana_card from "../../../../assets/dana-card.jpg"
+import jordan_card from "../../../../assets/jordan-card.JPG"
+import bao_card from "../../../../assets/bao-card.jpg"
+import frankii_card from "../../../../assets/frankii-card.JPG"
+import mac_card from "../../../../assets/mac-card.JPG"
 
 export default function MeetTheInstructorsPage()
 {
@@ -34,19 +40,21 @@ export default function MeetTheInstructorsPage()
                     </Card>
                     <Card title="William Bui" header={header(william_card)} subTitle="Coordinator" className="instructor-card">
                     </Card>
-                    <Card title="Bao-Linh Nguyen" subTitle="Instructor" className="instructor-card">
+                    <Card title="Bao-Linh Nguyen" header={header(bao_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
                     <Card title="Braden Perez" header={header(braden_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
-                    <Card title="Dana Mendoza" subTitle="Instructor" className="instructor-card">
+                    <Card title="Dana Mendoza" header={header(dana_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
-                    <Card title="Frankii Tang" subTitle="Instructor" className="instructor-card">
+                    <Card title="Frankii Tang" header={header(frankii_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
-                    <Card title="Hai-Trang Nguyen" subTitle="Instructor" className="instructor-card">
+                    <Card title="Hai-Trang Nguyen" header={header(hai_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
                     <Card title="Jimmy Tran" header={header(jimmy_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
-                    <Card title="Michael Mac" subTitle="Instructor" className="instructor-card">
+                    <Card title="Jordan Nguyen" header={header(jordan_card)} subTitle="Instructor" className="instructor-card">
+                    </Card>
+                    <Card title="Michael Mac" header={header(mac_card)} subTitle="Instructor" className="instructor-card">
                     </Card>
                     
                 </div>
