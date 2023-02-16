@@ -7,6 +7,7 @@ import JoinPage from './components/Pages/JoinPage/JoinPage';
 import ContactPage from './components/Pages/ContactPage/ContactPage';
 import WelcomePage from './components/Pages/WelcomePage/WelcomePage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from "react";
 
 
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
@@ -17,6 +18,14 @@ import ScrollToTop from './ScrollToTop';
 
 
 function App() {
+  const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
+
   return (
       <BrowserRouter>
         <ScrollToTop>
