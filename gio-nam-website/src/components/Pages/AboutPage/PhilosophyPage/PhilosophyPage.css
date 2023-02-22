@@ -26,29 +26,13 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../assets/PhiloPic.jpeg");
-    
-    /* transform: translate3d(0px, 0px, 0px); */
-    /*background-attachment: fixed;*/
-    background-color: black;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../../../assets/PhiloPic.jpeg");
+    background-attachment: fixed;
     width: 100%;
-    margin-top: 7vh;
-    height: 60%;
+    height: 50vh;
     color: #ffffff;
     opacity: .8;
-}
-
-.philo-button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center center;
-
-    text-align: center;
-    margin-top: 67vh;
-    height: 60%;
-    background-color: #303033;
-    color: white;
 }
 
 .philo-text-container {
@@ -61,16 +45,12 @@
     background-color: #303033;
     color: white;
 
-    padding-bottom: 20px;
-    padding-top: 4vh;
+    padding: 2vh 0;
 }
 
 .philo-text-container p {
-    text-align: center;
     font-size: 17px;
-
     width: 55%;
-    /* align-items: center center; */
 }
 
 .philo-hero h1 {

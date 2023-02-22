@@ -1,11 +1,9 @@
 import React from "react";
 import "./PhilosophyPage.css"
-import Header from "../../PageSections/Header/Header"; 
-import Footer from "../../PageSections/Footer/Footer";
-import Button from '@mui/material/Button';
-import { useNavigate } from "react-router-dom";
+import Header from "../../../PageSections/Header/Header"; 
+import Footer from "../../../PageSections/Footer/Footer";
 import { ThemeProvider } from "@mui/material";
-import theme from '../../../theme'
+import theme from '../../../../theme'
 
 export default function PhilosophyPage() {
 
@@ -16,10 +14,6 @@ export default function PhilosophyPage() {
                 <div className="philo-hero">
                     <h1>Our Philosophy</h1>
                 </div>
-
-                <div className="philo-button-container">
-                </div>
-
                 <div className="philo-text-container">
                     <p>Gió Nam Múa Lân aims to serve as both a cultural resource for traditional lion dance in the Orange County community as well as a mentorship and leadership program for its members. </p>
                     <p>Our team believes that connection to our roots is important so as not to forget where we came from. By spreading the knowledge, history, and tradition of lion dance, we aim to earn the respect and recognition of our community here in Southern California while giving back by spreading joy and good blessings and educating our audiences about the tradition and culture. Our team makes it a point to perform for as many schools and youth organizations as possible at little to no charge, and we teach any interested new member regardless of age, background, beliefs, or identity.</p>

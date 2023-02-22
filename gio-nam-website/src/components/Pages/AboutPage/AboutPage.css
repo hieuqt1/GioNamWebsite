@@ -31,27 +31,37 @@
     background-color: black;
     width: 100%;
     height: 50vh;
-    color: #303033;
+    /* color: #303033; */
+    color: #ffffff;
     opacity: .8;
 }
 
 .aboutus-button-container {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #303033;
     color: white;
+    margin-top: 2vh;
 }
 
 .aboutus-text-container {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
     background-color: #303033;
     color: white;
+    padding: 2vh 0 4vh;
+}
+
+.aboutus-text-container p {
+    font-size: 17px;
+    width: 55%;
 }
 
 .aboutus-lion-line-up h1 {
@@ -72,18 +82,5 @@
 
 * Button{
     width: 18%;
-}
-
-.buttons {
-    margin-top: 3vh;
-    width: 100%;
-}
-
-.text {
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    width: 60%;
-    align-items: center;
-    columns: #e1dfdb;
 }
 
