@@ -3,17 +3,17 @@ import "./MeetTheInstructorsPage.css"
 import Header from "../../../PageSections/Header/Header";
 import Footer from "../../../PageSections/Footer/Footer";
 import { Card } from 'primereact/card';
-import hieu_card from "../../../../assets/hieu-card.JPG"
-import brian_card from "../../../../assets/brian-card.jpg"
-import william_card from "../../../../assets/william-card.JPG"
-import braden_card from "../../../../assets/braden-card.JPG"
-import jimmy_card from "../../../../assets/jimmy-card.JPG"
-import hai_card from "../../../../assets/hai-card.jpg"
-import dana_card from "../../../../assets/dana-card.jpg"
-import jordan_card from "../../../../assets/jordan-card.JPG"
-import bao_card from "../../../../assets/bao-card.jpg"
-import frankii_card from "../../../../assets/frankii-card.JPG"
-import mac_card from "../../../../assets/mac-card.JPG"
+import hieu_card from "../../../../assets/leader-cards/hieu-card.JPG"
+import brian_card from "../../../../assets/leader-cards/brian-card.jpg"
+import william_card from "../../../../assets/leader-cards/william-card.JPG"
+import braden_card from "../../../../assets/leader-cards/braden-card.JPG"
+import jimmy_card from "../../../../assets/leader-cards/jimmy-card.JPG"
+import hai_card from "../../../../assets/leader-cards/hai-card.jpg"
+import dana_card from "../../../../assets/leader-cards/dana-card.jpg"
+import jordan_card from "../../../../assets/leader-cards/jordan-card.JPG"
+import bao_card from "../../../../assets/leader-cards/bao-card.jpg"
+import frankii_card from "../../../../assets/leader-cards/frankii-card.JPG"
+import mac_card from "../../../../assets/leader-cards/mac-card.JPG"
 
 export default function MeetTheInstructorsPage()
 {
