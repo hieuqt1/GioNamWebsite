@@ -1,5 +1,6 @@
 import HomePage from './components/Pages/HomePage/HomePage';
 import AboutPage from './components/Pages/AboutPage/AboutPage';
+import MeetTheInstructorsPage from './components/Pages/AboutPage/MeetTheInstructors/MeetTheInstructorsPage';
 import HistoryPage from './components/Pages/HistoryPage/HistoryPage';
 import MediaPage from './components/Pages/MediaPage/MediaPage';
 import JoinPage from './components/Pages/JoinPage/JoinPage';
@@ -8,27 +9,33 @@ import WelcomePage from './components/Pages/WelcomePage/WelcomePage';
 import PhilosophyPage from './components/Pages/PhilosophyPage/PhilosophyPage';
 // components\Pages\PhilosophyPage\Philosophy.css
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from "react";
 
 
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
 import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
+import ScrollToTop from './ScrollToTop';
  
 
 
 function App() {
   return (
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
+        <ScrollToTop>
+          <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/about" element={<AboutPage />} />
           <Route path="/philosophy" element={<PhilosophyPage />} />
-          <Route path="/history" element={<HistoryPage />} />
-          <Route path="/media" element={<MediaPage />} />
-          <Route path="/join-us" element={<JoinPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/welcome" element={<WelcomePage />} />
-        </Routes>
+              <Route path="/about/meet-the-instructors" element={<MeetTheInstructorsPage />} />
+              <Route path="/history" element={<HistoryPage />} />
+              <Route path="/media" element={<MediaPage />} />
+              <Route path="/join-us" element={<JoinPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+              <Route path="/welcome" element={<WelcomePage />} />
+            </Routes>
+      </ScrollToTop>
+        
       </BrowserRouter>
   )
 }
