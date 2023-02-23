@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../../assets/lion-line-up.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../../assets/aboutus-hero-banner.jpg");
     background-attachment: fixed;
     background-color: black;
     width: 100%;

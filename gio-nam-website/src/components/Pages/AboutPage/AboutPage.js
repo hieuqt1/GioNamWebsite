@@ -26,8 +26,8 @@ export default function AboutPage() {
 
   return (
     <ThemeProvider theme={theme}>
+      <Header />
       <div className="aboutus-container gio-nam-font">
-        <Header />
         <div className="aboutus-lion-line-up">
           <h1>About Us</h1>
         </div>

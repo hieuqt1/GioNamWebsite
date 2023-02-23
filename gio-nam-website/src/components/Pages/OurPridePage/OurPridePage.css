@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+
+.ourpride-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.gio-nam-font {
+  font-family: "Noto Serif", serif;
+}
+
+.ourpride-hero-banner {
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  text-align: center;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../../../assets/ourpride-hero-banner.jpg");
+  background-attachment: fixed;
+  background-color: black;
+  width: 100%;
+  height: 50vh;
+  /* color: #303033; */
+  color: #303033;
+  opacity: 0.8;
+  margin-top: 65px;
+}
+
+.ourpride-hero-banner h1 {
+  /* Text styles */
+  font-size: 3.5vw;
+  border-style: solid;
+  border-width: 0.3vh;
+  padding: 3vh;
+  padding-right: 24vh;
+  padding-left: 24vh;
+}
+
+.ourpride-content-container {
+  display: flex;
+  min-height: 10vh;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+  padding: 2vh 0 4vh;
+}
+
+.ourpride-lion-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

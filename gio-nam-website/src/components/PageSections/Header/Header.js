@@ -31,20 +31,8 @@ const headerItems = [
   },
   {
     id: 2,
-    title: "Media",
-    href: "/media",
-    contents: [
-      {
-        id: 0,
-        title: "Gallery",
-        href: "/media/gallery",
-      },
-      {
-        id: 1,
-        title: "Our Pride",
-        href: "/media/our-pride",
-      },
-    ],
+    title: "Our Pride",
+    href: "/our-pride",
   },
   {
     id: 3,
@@ -76,10 +64,6 @@ export default function Header() {
         {headerItems.map((item) => (
           <HeaderItem key={item.id} item={item} />
         ))}
-        {/* replace Search with magnifying glass and capability */}
-        {/* <div className="page-button navigation-item">
-          <p>Search</p>
-        </div> */}
       </div>
     </div>
   );

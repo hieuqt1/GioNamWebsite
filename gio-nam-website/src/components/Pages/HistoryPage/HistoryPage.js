@@ -43,7 +43,7 @@ export default function HistoryPage() {
                 lion dance. The lion created a great deal of trouble for
                 everyone with his very mischievious character and fondness for
                 practical jokes. On one occasion, he decided to play a practical
-                joke on the Jade Emperor. The Jade Empoeror, angry after all the
+                joke on the Jade Emperor. The Jade Emperor, angry after all the
                 trouble that the lion had caused, killed the lion by cutting its
                 head off and separating it from its body. He then threw both the
                 lion's head and body down to the earth to rot.

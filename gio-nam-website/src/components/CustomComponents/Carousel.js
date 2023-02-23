@@ -9,7 +9,7 @@ export default function Carousel(props) {
         <CustomCarousel 
         data={data}
         time={4000}
-        automatic={true}
+        automatic={props.auto_bool}
         dots={true}
         radius="8px"
         />

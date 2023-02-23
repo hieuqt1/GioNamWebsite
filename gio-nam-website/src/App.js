@@ -2,10 +2,9 @@ import HomePage from './components/Pages/HomePage/HomePage';
 import AboutPage from './components/Pages/AboutPage/AboutPage';
 import MeetTheInstructorsPage from './components/Pages/AboutPage/MeetTheInstructorsPage/MeetTheInstructorsPage';
 import HistoryPage from './components/Pages/HistoryPage/HistoryPage';
-import MediaPage from './components/Pages/MediaPage/MediaPage';
+import OurPridePage from './components/Pages/OurPridePage/OurPridePage';
 import JoinPage from './components/Pages/JoinPage/JoinPage';
 import ContactPage from './components/Pages/ContactPage/ContactPage';
-import WelcomePage from './components/Pages/WelcomePage/WelcomePage';
 import PhilosophyPage from './components/Pages/AboutPage/PhilosophyPage/PhilosophyPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from "react";
@@ -28,10 +27,9 @@ function App() {
               <Route path="/about/our-philosophy" element={<PhilosophyPage />} />
               <Route path="/about/meet-the-instructors" element={<MeetTheInstructorsPage />} />
               <Route path="/history" element={<HistoryPage />} />
-              <Route path="/media" element={<MediaPage />} />
+              <Route path="/our-pride" element={<OurPridePage />} />
               <Route path="/join-us" element={<JoinPage />} />
               <Route path="/contact" element={<ContactPage />} />
-              <Route path="/welcome" element={<WelcomePage />} />
             </Routes>
       </ScrollToTop>
         
