@@ -8,9 +8,10 @@ import { ThemeProvider } from "@mui/material";
 import theme from '../../../theme'
 import Carousel from "../../CustomComponents/Carousel";
 
-import welcome_image_1 from "../../../assets/team.JPG"
-import welcome_image_2 from "../../../assets/wedding-1.JPG"
-import welcome_image_3 from "../../../assets/wedding-2.JPG"
+import welcome_image_1 from "../../../assets/homepage-carousel/team.JPG"
+import welcome_image_2 from "../../../assets/homepage-carousel/wedding-1.JPG"
+import welcome_image_3 from "../../../assets/homepage-carousel/wedding-2.JPG"
+import welcome_image_4 from "../../../assets/homepage-carousel/wedding-3.jpg"
 
 
 export default function HomePage()
@@ -22,13 +23,13 @@ export default function HomePage()
     }
 
     const image_list = [
-        welcome_image_1, welcome_image_2, welcome_image_3
+        welcome_image_1, welcome_image_2, welcome_image_3, welcome_image_4
     ]
 
     return (
         <ThemeProvider theme={theme}>
-            <div className="homepage-container">
-                <Header />
+            <Header />
+            <div className="homepage-container"> 
                 <div className="homepage-hero-banner gio-nam-font">
                     <div className="homepage-hero-text">
                         <h1>Gió Nam Múa Lân</h1>
@@ -59,9 +60,9 @@ export default function HomePage()
                             <Button className="welcome-button" sx={{"&:hover": {color: "white"}, marginBottom: "30px"}} variant="contained" color="secondary" disableElevation>Contact Us</Button>
 
                     </div>  
-                </div> 
-                <Footer />        
+                </div>       
             </div>
+            <Footer />    
         </ThemeProvider>
     )
 }
